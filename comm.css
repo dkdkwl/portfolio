@@ -310,9 +310,9 @@ article { padding: 40px 8%; }
 
   }
   .area_thum_txt{
-   margin: 5% 0 0 -3%;
+   padding: 5% 10%;
    text-align: left;
-   display:inline-block;
+   
  }
  .thum_txt{
    display: inline-block;
