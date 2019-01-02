@@ -206,7 +206,7 @@ article { padding: 40px 8%; }
     left: 0;
     display: inline-block;
     margin: 40px 0 70px 0;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
     padding: 5px 10px;
   }
@@ -277,7 +277,7 @@ article { padding: 40px 8%; }
   border: 7px solid white;
 
   }*/
-  .lnk_g{
+  .lnk_g, .lik_a{
     height: 100%;
     width: 100%;
   }
@@ -309,11 +309,14 @@ article { padding: 40px 8%; }
     z-index: 100;
 
   }
+
   .area_thum_txt{
    padding: 5% 10%;
-   text-align: left;
-   
+   text-align: left; 
  }
+  .lnk_a .area_thum_txt{
+    padding: 0 10%;
+  }
  .thum_txt{
    display: inline-block;
    text-align:center;
