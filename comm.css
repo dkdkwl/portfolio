@@ -435,15 +435,19 @@ article { padding: 40px 8%; }
   margin: 20px 0 0 32px;
   letter-spacing: 0;
 }
+.profile_txt{
+  width: 90%;
+}
 .wrap_profile .profile_txt p{
-  line-height: 2em;
-  font-size: 15px;
+  line-height: 1em;
+  font-size: 60px;
   /*letter-spacing: -0.08em;*/
+  font-family: 'Black Han Sans', sans-serif;
+  color: #555;
   }
+
 .wrap_profile .profile_txt p span{
-  font-size: 18px;
-  font-weight: 700;
-  color: #24C1E1;
+  color: coral;
 
 }
 .exp_deta h3, .exp_deta h4, .tech p, h4{
@@ -456,6 +460,10 @@ article { padding: 40px 8%; }
 .exp_deta p, .exp_txt p, .col_sns span{
   font-size: .85em;
   color: #777;
+}
+.col_sns p {
+  font-weight: 700;
+  color: #555;
 }
 .icon i{
   display: inline-block;
