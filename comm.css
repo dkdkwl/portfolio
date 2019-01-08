@@ -20,6 +20,10 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
   font-weight: 500;
 }
 
+/*구글 웹폰트를 사용하기 위한 태그입니다*/
+/*font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Black Han Sans', sans-serif;*/
+
 body{
   letter-spacing: -0.01em  
 }
@@ -429,11 +433,12 @@ article { padding: 40px 8%; }
 }
 .exp ,.tech_col ul, .wrap_profile, .wrap_progress{
   margin: 20px 0 0 32px;
+  letter-spacing: 0;
 }
 .wrap_profile .profile_txt p{
   line-height: 2em;
   font-size: 15px;
-  letter-spacing: -0.08em;
+  /*letter-spacing: -0.08em;*/
   }
 .wrap_profile .profile_txt p span{
   font-size: 18px;
@@ -443,6 +448,10 @@ article { padding: 40px 8%; }
 }
 .exp_deta h3, .exp_deta h4, .tech p, h4{
   font-size: 1em;
+}
+.exp_deta h3{
+  font-weight: 600;
+  color: #555;
 }
 .exp_deta p, .exp_txt p, .col_sns span{
   font-size: .85em;
@@ -470,6 +479,8 @@ article { padding: 40px 8%; }
 }
 .level li p{
   display: block;
+  font-weight: 700;
+  color: #555;
 }
 .style-two{
   border: 0;
