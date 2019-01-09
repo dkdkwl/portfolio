@@ -453,7 +453,7 @@ article { padding: 40px 8%; }
   /*letter-spacing: -0.08em;*/
   font-family: 'Black Han Sans', sans-serif;
   color: #555;
-  white-space: nowrap;
+  white-space: scroll;
 /*  text-shadow: 1px 1px 0 #d8d8d8;
 */
   }
